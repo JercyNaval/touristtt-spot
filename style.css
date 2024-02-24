@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Century;
+}
+ul{ 
+  float: left;
+  list-style-type: none;
+  margin-top: 130px;
+  min-height: 70px;
+  margin-left: 70px;
+  font-size: 16px;
+  
+}
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: coral;
+  padding: 10px 34px;
+  border: 1px solid transparent;
+  transition: 0.5 ease;
+
+}
+ul li a:hover{
+background-color: lightpink;
+  color: black;
+}
+
+.logo img {
+  position: absolute;
+  top: 2%;
+  float: left;
+  width: 90px;
+  height: auto;
+  margin-left: -20px;
+}
+
+.main{
+  max-width: 1170px;
+  margin: auto;
+}
+
+.title{
+  position: absolute;
+  top: 5%;
+  left: 22%;
+  transform: translate(-20%, -20%);
+
+}
+
+.title h1{
+  color: #170f0f;
+  font-size: 40px;
+
+}
+
+.button{
+  position: absolute;
+  top: 10%;
+  left: 70%;
+}
+
+.btn{
+  border: 1px solid coral;
+  padding: 10px 15px;
+  color:red;
+  transition: 5 ease;
+  margin-right: 5px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.btn:hover{
+  background-color: aqua;
+  color: #000;
+}
+.dropdown{
+  float: left;
+  list-style-type: none;
+  transition: 5 ease;
+  margin-top: 120px;
+  min-height: 100px;
+  margin-left: 120px;
+  font-size: 15px;
+  
+}
+.dropdown button{
+  text-decoration: none;
+  color: coral;
+  padding: 15px 40px;
+  font-size: 15px;
+  border: 1px solid transparent;
+  transition: 0.5 ease;
+  margin-left: -1px;
+}
+.dropdown button:hover{
+    background-color: lightpink;
+      color: black;
+}
+.dropdown a{
+  display: block;
+  color:coral ;
+  text-decoration: none;
+  padding: 10px 40px;
+}
+.dropdown .content{
+  display: none;
+  position: absolute;
+  background-color:aqua;
+}
+.dropdown:hover .content{
+display: block;
+color: #000;
+}
+.dropdown:hover button{
+  background-color: lightpink;
+  color: #000;
+}
+.dropdown a:hover{
+  background-color: lightpink;
+  color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
